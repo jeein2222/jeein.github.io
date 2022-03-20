@@ -1,0 +1,58 @@
+<!-- css, js는 html에 의해 실행됨. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE-edge"> -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Jeein's Todolist</title>
+
+</head>
+<body>
+    <h1 id="clock">00:00</h1>
+    <div id="quote">
+        <span></span><br>
+        <span></span>
+    </div>
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+    <br>
+    
+    <div class="form-wrap1">
+        <form id="login-form" class="hidden">
+            <label>What is your name?😀</label>   
+            <input required maxlength="15" type="text"/>
+            <button>Log In</button> 
+        </form>
+        <h2 id="greeting" class="hidden"></h2>
+        <br>
+        <form id="todo-form" class="hidden">
+            <label>Write a To Do and Press📚</label>
+            <input type="text">
+        </form>
+        <br>
+        <br>
+        <label>Time left for this year</label>
+        <h3 class="js-clock"></h3>
+    </div>
+    <div class="form-wrap2">
+        <label>What you have to do...😁</label>
+        <ul id="todo-list">
+        </ul>
+    </div>
+    
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/dDay.js"></script>
+
+</body>
+
+</html>

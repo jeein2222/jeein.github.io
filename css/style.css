@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+body{
+    height: 100vh;
+    font-family:'Source Sans Pro', sans-serif;
+    background-repeat : no-repeat;
+    background-size : cover;
+    font-size:20px;
+    
+}
+#quote, #weather{
+    color:white;
+}
+
+.form-wrap1{
+    background-color: rgba(248, 241, 241, 0.918);
+	margin:auto auto;
+    padding:10px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #000;
+	float:left;
+	width: 40%;
+    margin-left: 10%;
+    height:400px;
+    vertical-align:middle;
+}
+.form-wrap2 {
+    background-color: rgba(248, 241, 241, 0.918);
+    margin:auto auto;
+    padding:10px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #000;
+    float:left;
+	width: 30%;
+    margin-left: 5%;
+    height:400px;
+}
+#login-form button{
+    background-color: deepskyblue;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+	padding: 10px;
+	margin: 20px 0px;
+}
+
+div,h1{
+    text-align: center;
+}
+
+.hidden{
+    display:none;
+}
+
+ul{
+    list-style:none;
+}
+
+#todo-list button{
+    border: none;
+    color:white;
+  
+}
+
+
+#login-form input{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border: none;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+    text-align:center;
+}
+
+#todo-form input{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border: none;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+    text-align:center;
+}
